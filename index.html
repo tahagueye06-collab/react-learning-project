@@ -5,6 +5,52 @@
     <title>MovieDiscovery app</title>
 </head>
 <body>
+<header>
+    <nav>
+        MovieDiscovery
+        <a href="#home">Home</a>
+        <a href="#movies">Movies</a>
+        <a href="#myWatchlist">MyWatchlist</a>
 
+    </nav>
+</header>
+<main>
+
+<section id="home">
+    <h1>Find your next favorite movie</h1>
+    <p> Discover, search and save movies you love.</p>
+    <input type="search" id="searchInput" placeholder="Search movies">
+    <button id="searchButton" type="button">Search</button>
+</section>
+
+    <section id="movies">
+        <h2>Movies</h2>
+
+        <select id="genreFilter">
+            <option value="all">All Genres</option>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="drama">Drama</option>
+            <option value="sci-fi">Sci-Fi</option>
+        </select>
+
+        <div id="movieList">
+
+        </div>
+    </section>
+
+
+    <section  id="myWatchlist">
+        <h2>My Watchlist </h2>
+        <div id="watchlistMovies">
+        </div>
+        <p id = "emptyWatchlist"> Your watchlist is empty.</p>
+    </section>
+
+
+    <footer>
+        © 2026 Movie Discovery. Made by Taha.
+    </footer>
+</main>
 </body>
 </html>
