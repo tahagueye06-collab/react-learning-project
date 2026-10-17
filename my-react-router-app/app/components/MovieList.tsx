@@ -48,6 +48,8 @@ export function MovieList() {
                     </article>
                 ))}
             </div>
+
+            <h2 className="movies-title">My Watchlist ❤️</h2>
         </section>
     );
 }
