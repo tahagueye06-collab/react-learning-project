@@ -81,7 +81,7 @@ export function MovieList() {
                         </article>
                     ))}
                 </div>
-            )
+            )}
         </section>
     );
 }
