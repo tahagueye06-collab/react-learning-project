@@ -73,3 +73,29 @@ body {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 40px;
+  background-color: #101827;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #60a5fa;
+}
+}
+
+
